@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="rightButton" layoutX="510.0" layoutY="160.0" mnemonicParsing="false" onAction="#rigthButtonEvent" prefHeight="211.0" prefWidth="116.0" />
+            <Button fx:id="leftButton" layoutX="383.0" layoutY="160.0" mnemonicParsing="false" onAction="#leftButtonEvent" prefHeight="211.0" prefWidth="116.0" />
+            <Button fx:id="backButton" layoutX="39.0" layoutY="266.0" mnemonicParsing="false" onAction="#backButtonEvent" prefHeight="100.0" prefWidth="162.0" />
+            <Button fx:id="forwardButton" layoutX="40.0" layoutY="160.0" mnemonicParsing="false" onAction="#forwardButtonEvent" prefHeight="100.0" prefWidth="162.0" />
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="99.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@../../../Arrow-icon-by-ahlangraphic-150.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="419.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Arrow-icon-by-ahlangraphic-150.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="546.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@../../../Arrow-icon-by-ahlangraphic-150.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="99.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+               <image>
+                  <Image url="@../../../Arrow-icon-by-ahlangraphic-150.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="224.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" rotate="225.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="268.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="312.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" rotate="315.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="215.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="320.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="224.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="135.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="268.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="312.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="45.0">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%20n.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="224.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" rotate="225.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="268.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" rotate="270.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="312.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" rotate="315.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="215.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="320.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="224.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="135.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="268.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="312.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" visible="false">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-illustration-arrow-icon-right-arrow-angle-web-design-internet-thumbnail%201.png" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="PWMBarProgress" layoutX="379.0" layoutY="23.0" prefHeight="38.0" prefWidth="238.0" progress="0.0" />
+            <Button fx:id="RotateButton" layoutX="379.0" layoutY="72.0" mnemonicParsing="false" onAction="#RotateButtonEvent" prefHeight="44.0" prefWidth="44.0" />
+            <ImageView fitHeight="76.0" fitWidth="44.0" layoutX="379.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/png-transparent-arrow-circle-computer-icons-arrows-circle-logo-smile-rotation-thumbnail.png" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
